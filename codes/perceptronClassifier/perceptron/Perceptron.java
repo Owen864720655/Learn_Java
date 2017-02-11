@@ -134,7 +134,7 @@ public class Perceptron {
 		list.add(p2);
 		list.add(p3);
 		
-		Perceptron perception = new Perceptron(list, 0.8, 5);
+		Perceptron perception = new Perceptron(list, 0.8, 15);
 		boolean flag = perception.classify();
 		System.out.println("分类是否成功: " + flag);
 		System.out.println("分类结果: ");
