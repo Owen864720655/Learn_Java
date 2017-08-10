@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.regex.MatchResult;
 
 
-
 public class ThreatAnalyzer {
 
 	static String threatData = 
